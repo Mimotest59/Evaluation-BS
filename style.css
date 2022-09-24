@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+/*-------------------------Navbar section---------------------------------*/
+
+.cc-navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .2s ease-in-out, border-color 0.8s ease;
+}
+.cc-navbar .nav-link:hover{
+    border-bottom-color: rgb(255, 255, 255);
+}
+/*-------------------------Navbar section---------------------------------*/
