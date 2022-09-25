@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/*-------------------------Navbar section---------------------------------*/
+/*-------------------------Navbar section start---------------------------------*/
 
 .cc-navbar {
     background-color: rgba(0, 0, 0, 0.55);
@@ -18,4 +18,27 @@
 .cc-navbar .nav-link:hover{
     border-bottom-color: rgb(255, 255, 255);
 }
-/*-------------------------Navbar section---------------------------------*/
+/*-------------------------Navbar section end---------------------------------*/
+
+/*-------------------------Banner section start---------------------------------*/
+
+/*------------------ index banner start -------------------*/
+.banner{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./img/banner.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 700px;
+    filter: brightness(1.3);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.30); 
+}
+.banner .banner-desc{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.banner .banner-desc span{
+    font-size: 48px;
+}
+/*------------------ index banner end -------------------*/
+
+/*-------------------------Banner section start---------------------------------*/
