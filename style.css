@@ -18,6 +18,10 @@
 .cc-navbar .nav-link:hover{
     border-bottom-color: rgb(255, 255, 255);
 }
+.logo-menu{
+    z-index: 99;
+}
+
 /*-------------------------Navbar section end---------------------------------*/
 
 /*-------------------------Banner section start---------------------------------*/
