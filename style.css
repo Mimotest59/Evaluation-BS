@@ -43,6 +43,9 @@
 .banner .banner-desc span{
     font-size: 48px;
 }
+.text-capitalize{
+    font-size: 50px;
+}
 /*------------------ index banner end -------------------*/
 
 /*------------------ AboutUs banner start -------------------*/
@@ -53,8 +56,6 @@
     height: 700px;
     filter: brightness(1.3);
     border-bottom: 5px solid rgba(0, 0, 0, 0.30);
-}
-.bannerAboutUs{
     font-family: 'Merriweather', serif;
     font-size: 30px;
     font-weight: 400;
@@ -70,17 +71,26 @@
     height: 700px;
     filter: brightness(1.3);
     border-bottom: 5px solid rgba(0, 0, 0, 0.30);
-}
-.bannerRecycle{
     font-family: 'Merriweather', serif;
     font-size: 30px;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
-.text-capitalize{
-    font-size: 50px;
-}
+
 /*--------------------- recycle banner end ----------------------*/
+
+.bannerResponsible{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./img/responsibleBanner.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 700px;
+    filter: brightness(1.3);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.30);
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
 
 /*-------------------------Banner section end---------------------------------*/
 
