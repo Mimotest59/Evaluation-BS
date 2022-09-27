@@ -9,10 +9,7 @@ article p {
     text-align: justify;
   }
 
-  ol, ul, li{
-    margin: 0;
-    text-align: justify;
-  }
+ 
 
 /*-------------------------Navbar section start---------------------------------*/
 
@@ -166,3 +163,32 @@ article p {
     border-top: 5px solid rgba(0, 0, 0, 0.30);
 }
 /*-------------------------Footer section end---------------------------------*/
+
+
+@media (min-width: 990px) {
+    .missions{
+        border: 1px solid rgba(224, 224, 224, 0.432);
+        box-shadow: 3px 3px 2px 1px rgba(146, 146, 146, 0.27);
+        border-radius: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .available{
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+      
+    .img-fluid{
+        width: 500px;
+      }
+      .values{
+        text-align: center;
+        justify-content: center;
+      }
+      .available{
+        width: 100%;    
+    }
+      
+}
